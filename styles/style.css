@@ -1,0 +1,45 @@
+#topmost {
+    background-color: rgb(179, 222, 219);
+    border-style: double;
+    display: flex;              /* Añade Flexbox */
+    align-items: center;        /* Centra verticalmente */
+    justify-content: space-between; /* Espacia los elementos */
+    padding: 10px;  
+}
+
+#title {
+    text-align: left;
+    padding-left: 20px;
+}
+#mid_text {
+    text-align: center;
+    padding-left: 20px;
+}
+
+#lowermost {
+    background-color: rgb(179, 222, 219);
+    border-style: double;
+    width: 100%;
+    display: flex;              /* Añade Flexbox */
+    align-items: center;        /* Centra verticalmente */
+    justify-content: space-between; /* Espacia los elementos */
+    padding: 10px;  
+}
+
+#section1 {
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
+    padding: 20px;
+}
+#language{
+    alignment-baseline: right;
+    padding-right: 20px;
+}
+.sc_logo {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    margin-right: 20px; /* Espacio a la derecha */
+}
