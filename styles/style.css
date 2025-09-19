@@ -27,7 +27,7 @@
     
 }
 
-#section1 {
+#section2 {
     background-color: rgba(32, 198, 153, 0.615);
     border-style: solid;
     border-color: black;
@@ -41,24 +41,30 @@
     padding-right: 20px;
     width: 150px;
     height: auto;
-    font-size: xx-large;
+    font-size:large;
 }
 .sc_logo {
     width: 50px; /* Ajusta el tamaño según sea necesario */
     height: auto;
     margin-right: 20px; /* Espacio a la derecha */
+    border-radius: 10px;
 }
 
 .op_title {
     text-align: center;
 }
-.part {
+.trip_box_content {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
-    justify-content: center; /* Centra horizontalmente */
-    gap: 20px; /* Espacio entre las imágenes */
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%; /* Ocupa todo el ancho disponible */
 }
 
+.trip_box_content img {
+    width: 100%; /* Las imágenes ocupan todo el ancho de su columna */
+    height: auto;
+    object-fit: cover; /* Opcional: ajusta la imagen al espacio */
+}
 .trip_box{
     background-color: rgba(32, 198, 153, 0.615);
     border-style: solid;
@@ -66,9 +72,27 @@
     margin: 20px;
     padding: 20px;
 }
-#massive_container{
+
+#logo {
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    margin-right: 20px; /* Espacio a la derecha */
+    border-radius: 30px;
+}
+
+#main_content {
     display: grid;
-    flex-direction: column;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    background-color: rgb(125, 178, 232);
+}
+#left_section {
+    display: grid;
+    grid-template-columns: 1fr;
+    flex: 2; 
+    padding: 20px;
+}
+#side_bar {
+    flex: 1;
+    padding: 20px;
+    border: dashed;
 }
