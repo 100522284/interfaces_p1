@@ -1,0 +1,79 @@
+/* HEADER STYLE */
+#topmost {
+    background-color: rgb(179, 222, 219);
+    border-style: double;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+#title {
+    text-align: center;
+    padding-left: 20px;
+}
+
+#mid_text {
+    text-align: center;
+    padding-left: 20px;
+}
+
+#logo {
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    margin-right: 20px; /* Espacio a la derecha */
+    border-radius: 30px;
+}
+
+#language{
+    alignment-baseline: right;
+    padding-right: 20px;
+    width: 75px;
+    height: 35px;
+    font-size:large;
+    border-radius: 10px;
+}
+
+/* MAIN CONTENT STYLE */
+#register_box{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-left: 500px;
+    margin-right: 500px;
+    
+    
+}
+#register_box h3{
+    text-align: center;
+    margin-top: 10px;
+    grid-column: 1 / -1;
+    padding: 20px;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* FOOTER STYLE*/
+#lowermost {
+    background-color: rgb(179, 222, 219);
+    border-style: double;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.sc_logo {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    margin-right: 20px; /* Espacio a la derecha */
+    border-radius: 10px;
+}
