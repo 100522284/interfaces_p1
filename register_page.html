@@ -21,19 +21,20 @@
         </select>
     </header>
     <main>
+        <h2 align="center">Registro de Nuevos Usuarios</h2>
         <div id="register_box">
             <form action="input"><input type="text" placeholder="Nombre"></form>
             <form action="input"><input type="text" placeholder="Apellidos"></form>
             <form action="input"><input type="text" placeholder="Correo electrónico"></form>
             <form action="input"><input type="text" placeholder="Confirmar Correo"></form>
             <h3>Fecha de Nacimiento</h3>
-            <form action="input"><input type="date" placeholder=" / / "></input></form>
+            <form action="input" id="date_form"><input type="date" placeholder=" / / "></input></form>
             <form action="input"><input type="text" placeholder="Login"></form>
             <form action="input"><input type="text" placeholder="Password"></form>
             <h3>Subir imagen de perfil</h3>
             <form action="input"><input type="file" placeholder="Examinar"></input></form>
-            <form action="input"><input type="checkbox">Acepto la <a href="media/privacy.jpg">Política de privacidad</a></input></form>
-            <button type="submit">Guardar datos y acceder</button>
+            <form action="input" id="checkbox_button"><input type="checkbox">Acepto la <a href="media/privacy.jpg">Política de privacidad</a></input></form>
+            <button type="submit" id="submit_button">Guardar datos y acceder</button>
         </div>
     </main>
     <!-------- Pie de página -------->
